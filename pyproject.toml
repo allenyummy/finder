@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "finder"
+version = "0.1.0"
+description = ""
+authors = ["Yu-Lun Chiang <chiangyulun0914@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.1.0"
+xlrd = "^1.2.0"
+openpyxl = "^3.0.4"
+black = "^20.8b1"
+pytest = "^5.3.2"
+pytest-mock = "^3.0.0"
+pytest-cov = "^2.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
